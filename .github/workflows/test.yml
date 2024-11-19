@@ -1,0 +1,14 @@
+name: Echo Hi
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  say-hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hi
+        run: echo "hi"
