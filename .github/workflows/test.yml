@@ -12,6 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-            fetch-depth: 0
+          fetch-depth: 0
+      - name: Display .git/config
+        run: |
+          echo "Contents of .git/config:"
+          cat .git/config
       - name: Echo Hi
         run: echo "hi"
