@@ -1,5 +1,4 @@
 name: Echo Hi
-runs-on: self-hosted
 
 on:
   push:
@@ -9,7 +8,7 @@ on:
 
 jobs:
   say-hi:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Echo Hi
         run: echo "hi"
