@@ -24,4 +24,3 @@ trap 'cleanup; exit 143' TERM
 ./run.sh & wait $!
 
 
-while true; do ls -laR ./  sleep 1; done
