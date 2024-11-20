@@ -15,8 +15,6 @@ jobs:
           fetch-depth: 0
       - name: Display .git/config
         run: |
-          echo "Contents of .git/config:"
-          cat .git/config
           pwd
           ls -la ./
       - name: Echo Hi
