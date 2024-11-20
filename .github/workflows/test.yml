@@ -1,4 +1,5 @@
 name: Echo Hi
+runs-on: self-hosted
 
 on:
   push:
